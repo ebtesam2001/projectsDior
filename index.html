@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dior</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d6a3ad0c23.js" crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
+    <!-- <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body onscroll="myFunction()">
+    <div class="header" id="home">
+        <!-- <div class="image">
+            <img src="./image/aog-1_1440_1200.avif" alt="">
+        </div> -->
+
+        <nav class="navbar" id="navbar">
+            <div class="logo"><a href="#home">D<span>i</span>or</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a class="active" href="#about">About</a></li>
+                    <li><a class="active" href="#product">Products</a></li>
+                    <li><a class="active" href="#footer">Contact</a></li>
+                </ul>
+                <!-- <button class="contact-btn">contact me </button> -->
+            </div>
+        </nav>
+        <div class="humburger" id="humburger">
+            <div style=" display: flex; flex-direction: row; justify-content: space-between; width: 100%; ">
+                <div class="logo" data-aos="fade-down" data-aos-duration="2000"><a href="#">D<span>i</span>or</a></div>
+                <i class="fas fa-bars " onclick="myFunction1()" id="menu-btn" data-aos="fade-up"
+                    data-aos-duration="2000"></i>
+            </div>
+
+            <div id="menu" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-quad">
+                <i class="fa-solid fa-x " onclick="myFunction2()" id="xx"></i>
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a class="active" href="#about">About</a></li>
+                    <li><a class="active" href="#product">Products</a></li>
+                    <li><a class="active" href="#footer">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="home">
+            <h1 class="text1">collections</h1>
+            <h6 class="text2">&</h6>
+            <h3 class="text3">styles</h3>
+        </section>
+    </div>
+
+
+    <!-- about -->
+    <section class="about" id="about" data-aos="fade-up">
+        <div class="frist">
+            <div class="frist-left">
+                <img src="./image/parfum.avif" alt="">
+            </div>
+            <div class="frist-center">
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati ad eaque eligendi doloribus quisquam laudantium omnis id,
+                    ipsa qui nemo officia voluptatibus minus sed cupiditate laboriosam!
+                    Repellendus cupiditate fugiat itaque!
+
+                </p>
+            </div>
+            <div class="frist-end">
+                <div class="pink" data-aos="flip-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <h6>shop now</h6>
+                    <a
+                        href="https://www.dior.com/en_int?gclid=CjwKCAiAvoqsBhB9EiwA9XTWGV-NNSPIxJc-Fh5s4FbOJa3JNFRwGKzbQLStH2roA5tBnzV8la4YRBoCBIAQAvD_BwE"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div class="black" data-aos="flip-down" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <h6>soo promo</h6>
+                    <a
+                        href="https://www.dior.com/en_int?gclid=CjwKCAiAvoqsBhB9EiwA9XTWGV-NNSPIxJc-Fh5s4FbOJa3JNFRwGKzbQLStH2roA5tBnzV8la4YRBoCBIAQAvD_BwE"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="images">
+            <div class="img_left">
+                <img src="./image/parfum.avif" alt="" data-aos="fade-right" data-aos-duration="2000"
+                    data-aos-easing="ease-in-quad">
+            </div>
+            <div class="img_right" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-quad">
+                <img src="./image/parfum.avif" alt="">
+                <img src="./image/parfum.avif" alt="">
+            </div>
+            <span class="circle" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-quad">Dior</span>
+
+            <div class="responimage">
+                <img src="./image/parfum.avif" alt="">
+                <img src="./image/parfum.avif" alt="">
+                <img src="./image/parfum.avif" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- product -->
+    <section class="product" id="product">
+        <!-- data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-quad" -->
+        <div class="articles">
+            <article data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div class="article-wrapper">
+                    <figure class="figure">
+                        <img src="./image/p2.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Dior bags</h2>
+                        <p>
+                            Women's designer bags, including iconic Lady Dior, Saddle and Book Tote, use the richest
+                            leathers and embroidered fabrics.
+                        </p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </article>
+            <article data-aos="flip-down" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div class="article-wrapper">
+                    <figure class="figure">
+                        <img src="./image/Dior makeup.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Dior makeup</h2>
+                        <p>
+                            Dior makeup is one of those brands. Every Dior product I've tried has been a major success
+                            for
+                            me, whether that's one of its airbrush-esque foundations or a glowy lip gloss.
+                        </p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </article>
+            <article data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+
+                <div class="article-wrapper">
+                    <figure class="figure">
+                        <img src="./image/Dior fashion1.webp" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Dior fashion</h2>
+                        <p>
+                            Christian Dior is often described as having an “architect's eye.” His signature style was
+                            known
+                            for its clean lines, geometric shapes, and full skirts. Dior also ensured that each design
+                            had a
+                            detail that would enhance the dress's silhouette.
+                        </p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </article>
+            <article data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div class="article-wrapper">
+                    <figure class="figure">
+                        <img src="./image/Dior shoes.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Dior shoes</h2>
+                        <p>
+                            Dior makeup is one of those brands. Every Dior product I've tried has been a major success
+                            for
+                            me, whether that's one of its airbrush-esque foundations or a glowy lip gloss.
+                        </p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </article>
+            <article data-aos="flip-down" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div class="article-wrapper">
+                    <figure class="figure">
+                        <img src="./image/DIOR JULARE.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Dior jewelry</h2>
+                        <p>
+                            Dior makeup is one of those brands. Every Dior product I've tried has been a major success
+                            for
+                            me, whether that's one of its airbrush-esque foundations or a glowy lip gloss.
+                        </p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </article>
+            <article data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div class="article-wrapper">
+                    <figure class="figure">
+                        <img src="./image/Dior glasses.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Dior glasses</h2>
+                        <p>
+                            Dior makeup is one of those brands. Every Dior product I've tried has been a major success
+                            for
+                            me, whether that's one of its airbrush-esque foundations or a glowy lip gloss.
+                        </p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="speech">
+            <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-quad">Dior, where your elegance
+                and needs are complete</h1>
+            <p data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-quad">Elevate a side of rebellious
+                femininity with sharp, clean contrasting tones. You can't wear something
+                from Dior without standing up. There will always be something extraordinary about their products
+                .
+            </p>
+        </div>
+    </section>
+
+    <!-- footer-->
+
+
+    <footer class="footer" id="footer">
+        <div class="evaluation" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-quad">
+            <div class="all">
+                <main class="l-card">
+                    <section class="l-card__user">
+                        <div class="l-card__userImage">
+                            <img src="./image/MicrosoftTeams-image_27_700x.webp" alt="Naruto">
+                        </div>
+                        <div class="l-card__userInfo">
+                            <span>Asma Muneer</span>
+                            <span>Asma Muneer</span>
+                        </div>
+                        <div class="l-card__userEvaluation">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <div class="article-body">
+                            </div>
+                    </section>
+                    <section class="l-card__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae hic mollitia
+                            repellendus, magni labore architecto itaque assumenda esse a repellat,</p>
+                    </section>
+
+                </main>
+                <main class="l-card">
+                    <section class="l-card__user">
+                        <div class="l-card__userImage">
+                            <img src="./image/MicrosoftTeams-image_27_700x.webp" alt="Naruto">
+                        </div>
+                        <div class="l-card__userInfo">
+                            <span>Ebtesam Muneer</span>
+                            <span>Ebtesam Muneer</span>
+                        </div>
+                        <div class="l-card__userEvaluation">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <div class="article-body">
+                            </div>
+                    </section>
+                    <section class="l-card__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae hic mollitia
+                            repellendus, magni labore architecto itaque assumenda esse a repellat,</p>
+                    </section>
+
+                </main>
+            </div>
+
+        </div>
+        <div class="contact" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="sections">
+                <div class="tables">
+                    <h1>branches</h1>
+                    <h4>America</h4>
+                    <h4>Sephora</h4>
+                    <h4>Emirates</h4>
+                    <h4>Saudi Arabia</h4>
+                </div>
+                <div class="tables ">
+                    <h1>social media</h1>
+                    <a href="https://twitter.com/dior">
+                        <h4>Twitter</h4>
+                    </a>
+                    <a href="https://www.pinterest.fr/dior/">
+                        <h4>pinterest</h4>
+                    </a>
+                    <a href="https://www.facebook.com/Dior">
+                        <h4>Facebook</h4>
+                    </a>
+                    <a href="https://linkin.bio/dior">
+                        <h4>Instagram</h4>
+                    </a>
+                </div>
+                <div class="tables">
+                    <h1>domain</h1>
+                    <h4>shoes</h4>
+                    <h4>clothes</h4>
+                    <h4>perfumes</h4>
+                    <h4>accessories</h4>
+                </div>
+            </div>
+            <div class="cope">
+                <a href="#home">D<span>i</span>or</a>
+                <a href="https://64ad46b365b59e008c55c3ee--dancing-eclair-0c0e99.netlify.app/#contact" class="namedes">Designed By <span  class="namedesspan">Ebtesam Muneer</span> .</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        AOS.init();
+        // document.getElementById("menu").style.display = 'none';
+        const el = document.getElementById("navbar");
+        const el1 = document.getElementById("humburger");
+        function myFunction() {
+            if (window.scrollY >= 20) {
+                el.style.backgroundColor = "#5e797cad"
+            } else {
+                el.style.backgroundColor = "rgba(250, 235, 215, 0)"
+            }
+        }
+
+        function myFunction4() {
+            document.getElementById("navbar").style.display = 'none';
+            if (window.scrollY >= 20) {
+                el1.style.backgroundColor = "#5e797cad"
+            } else {
+                el1.style.backgroundColor = "rgba(250, 235, 215, 0)"
+            }
+        }
+        function myFunction1() {
+            document.getElementById("menu").style.display = 'block';
+        }
+        function myFunction2() {
+            document.getElementById("menu").style.display = 'none';
+        }
+
+    </script>
+</body>
+
+</html>
